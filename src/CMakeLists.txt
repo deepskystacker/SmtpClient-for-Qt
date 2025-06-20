@@ -101,7 +101,7 @@ install(EXPORT SmtpMimeTargets
 include(CMakePackageConfigHelpers)
 write_basic_package_version_file(
     "SmtpMimeConfigVersion.cmake"
-    VERSION ${smtpmime_VERSION}
+    VERSION ${SmtpMime_VERSION}
     COMPATIBILITY AnyNewerVersion)
 	
 install(FILES "SmtpMimeConfig.cmake" "${CMAKE_CURRENT_BINARY_DIR}/SmtpMimeConfigVersion.cmake"
